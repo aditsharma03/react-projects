@@ -41,7 +41,7 @@ function App() {
 
   return (
     <>
-            <div  className=" h-screen w-screen bg-[url('https://images.pexels.com/photos/11285436/pexels-photo-11285436.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] flex flex-col items-center justify-center ">
+            <div  className=" h-dvh  w-dvw bg-[url('https://images.pexels.com/photos/11285436/pexels-photo-11285436.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] flex flex-col items-center justify-center ">
                 <div className="w-full flex flex-col md:flex-row lg:flex-row items-center justify-center">
                         <CurrencyCard
                             amount={fromAmount}
