@@ -16,7 +16,7 @@ const Browser = ()=>{
                         type="text"
                         value={username}
                         onChange={(e)=>{setUsername(e.target.value)}}
-                        placeholder="username"
+                        placeholder="github username"
 
                         className=" w-64 outline-none py-2 px-14 text-center bg-transparent border-b-2 border-yellow-400"
                     />
